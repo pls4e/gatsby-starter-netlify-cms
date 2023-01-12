@@ -1,6 +1,8 @@
 backend:
   name: git-gateway
   branch: main
+  base_url: https://gatsbystarternetlifycmsma78732.gatsbyjs.io/
+  auth_endpoint: api/auth
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
